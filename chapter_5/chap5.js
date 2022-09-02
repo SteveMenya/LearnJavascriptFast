@@ -19,6 +19,7 @@ var var1 = "var1: declared outside myFunc";
 var var2 = "var2: declared OUTSIDE myFunc";
 
 function myFunc() {
+    "use strict";
 
     var var2 = "var2: declared INSIDE myFunc";
     var var3 = "var3: declared inside myFunc";
