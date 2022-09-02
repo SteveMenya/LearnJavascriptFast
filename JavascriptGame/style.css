@@ -1,0 +1,153 @@
+body {
+    font-family:Verdana, Geneva, sans-serif;       
+    font-size: 20px;
+    font-weight: 100;
+    color: #314159;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+         
+}
+
+.instructionbutton {
+    
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    font-size: 16px;
+    text-align: center;
+    
+    background-color: white !important;
+    width: 200px !important;
+    top: 50px !important;
+    height: auto !important;
+    border-radius: 25px !important;
+    margin: 20px auto !important;
+
+}
+
+
+.header {
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-size: 12px;
+    color: #180f51;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+
+.data {
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+
+}
+
+#instructions {
+    font-size: 15px;
+    color: #fff;    
+}
+
+#screen1 {
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    color: #314159;
+
+}
+
+#screen2b, #screen2a {
+    margin: 0 5%;
+    float: left;
+    width:90%;
+    
+    position: relative;  
+    padding: 0px; 
+}
+
+#screen2b {
+    height: 60%;
+}
+
+.card {
+    
+    width: 20%;
+    margin: 20px 2.5% 20px 2.5%;
+    height: 100px;
+    background-color: orangered;
+    color: white;
+    float: left;
+}
+
+#howManyPlayers {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #3b8ec2;
+    padding: 20px;
+    color: white;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 29px;
+    width: 150px;
+}
+
+.nameInput {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #3b8ec2;
+    border: 1px solid #3b8ec2;
+    font-size: 16px;
+       height: 35px;
+       width: 200px;
+}
+
+
+
+#submitNames {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #3b8ec2;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #3b8ec2;
+    font-size: 16px;
+    
+}
+
+#submitNames:hover {
+    background-color: #3e8e41;
+}
+
+
+
+.shape {
+    position: absolute;
+
+}
+
+#results {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5% auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
